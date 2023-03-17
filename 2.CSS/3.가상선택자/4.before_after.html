@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <!-- before 이전에다가 -->
+       <style>  
+        ul li::before{
+            content: '번호';
+            font-weight: bold;
+            color: red;
+            margin-right: 20px;
+        }
+
+
+        /* content에 공백일 경우 dispaly 효과를 주어야한다. */
+        ul li::after{
+            content: ''; 
+            width: 10px;
+            height: 10px;
+            background: khaki;
+            display: inline-block;
+            border-radius: 50%;
+            margin-left: 10px;
+        }
+
+
+
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+    
+    <!-- ul>li*9{$} -->
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+    </ul>
+
+    
+
+
+
+
+
+</body>
+</html>
