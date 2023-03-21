@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            width: 600px;
+            margin: 100px auto 0;
+        }
+
+        .container .box {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background: tomato;
+            border: 4px dashed rgb(243, 225, 63);
+            font-size: 30px;
+            margin-right: -30px;
+            float: left;
+        }
+
+        
+        .box1:hover {
+            background: rgb(32, 235, 140);
+            z-index: 0;
+
+        }
+
+        .box2:hover {
+            background: rgb(32, 235, 140);
+            z-index: 1;
+        }
+
+        .box3:hover {
+            background: rgb(32, 235, 140);
+            z-index: 2;
+
+        }
+
+        .box4:hover {
+            background: rgb(32, 235, 140);
+            z-index: 3;
+        }
+
+        .box5:hover {
+            background: rgb(32, 235, 140);
+            z-index: 4;
+        }
+
+        .container .box:hover {
+            background: yellowgreen;
+            border-color: red;
+            z-index: 9999;
+            /* transform: 0.5s;
+            transform: translateY(-20px);
+            cursor: pointer; */
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+    </div>
+
+
+</body>
+
+</html>

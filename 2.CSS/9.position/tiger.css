@@ -1,0 +1,173 @@
+@import url(../../common.css);
+
+
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* 
+body {
+    background: gray;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+header h1 {
+    width: 730px;
+    height: 130px;
+    background: rgb(38, 52, 90);
+    margin: 0 auto;
+    padding: 40px;
+    font-size: 18px;
+    color: yellow;
+
+}
+
+header h1 strong {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(247, 247, 245);
+    text-align: center;
+    font-family: 'SBAggroB';
+
+
+}
+
+header h1 span {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(136, 136, 46);
+    text-align: center;
+    font-family: 'SBAggroB';
+}
+
+header h1 em {
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(170, 170, 170);
+    text-align: center;
+    font-family: 'SBAggroB';
+}
+
+.container .menu li a {
+    width: 70px;
+    height: 150px;
+    background: gray;
+    width: 50%;
+    margin-right: 50%;
+
+} */
+
+/* base style */
+body {
+    background: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    font-family: '굴림','Gulim',serif;
+}
+#wrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* header style */
+
+header{
+    background: #123456;
+    padding: 10px;
+    color: #ffff;
+}
+header h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #cc0;
+    text-align: center;
+    font-family: 'SBAggroB',cursive;
+}
+header h1 strong{
+    font-size: 3em;
+    color: #fff;
+}
+
+header h1 span {
+    font-size: 1.5em;
+}
+header h1 em {
+    font-size: 2em;
+    color: #ccc;
+}
+/* end header style */
+
+/* begin container style */
+.container {
+    background: #ccc;
+
+}
+.container .menu{
+    float: left;
+    width: 20%;
+    padding: 20px;
+}
+
+.container .menu li{
+    margin-bottom: 8px;
+    text-decoration: underline;
+}
+
+.container .menu li a:hover {
+    color: #662;
+    border-bottom: 1px dashed #662;
+}
+
+.container .content{
+    background: #fff;
+    float: right;
+    width: 80%;
+}
+.container .content h2 {
+    background: #800;
+    color: #ee0;
+    font-size: 25px;
+    font-weight: bold;
+    /*padding 상하 좌우 */
+    padding: 5px 20px;
+    font-family: '궁서',cursive;
+}
+
+.container .content p {
+    padding: 20px;
+    /* 두줄 이상일 때만 적용 */
+    text-align: justify;
+}
+/* footer style */
+footer {
+    background: #aaa;
+    padding: 10px 20px;
+}
+footer address {
+    font-family: '굴림체','Gulim',serif;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
