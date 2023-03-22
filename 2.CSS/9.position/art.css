@@ -1,0 +1,230 @@
+@import url(../../common.css);
+/* 
+body {
+    background: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    font-family: '굴림','Gulim',serif;
+}
+#wrapper{
+
+    width: 50%;
+
+    margin: 0 auto;
+}
+header{
+    font-size: 30px;
+    background: orange;
+    margin: 15px ;
+    
+}
+header h1{
+    color: white;
+    font-weight: bold;
+    
+
+}
+header h1 span {
+    font-weight: bold;
+    font-size: 2%;
+    color: white;
+    
+}
+header .stit{
+    font-size: 8px;
+    background: #ccc;
+    padding: 0 auto;
+    text-align: center;
+}
+
+.container {
+
+    background: white;
+    float: left;
+    margin: 0 auto;
+
+}
+.container .side-menu h3 {
+    background: red;
+    font-weight: bold;
+    color: white;
+    float: left;
+}
+.main-content {
+    background: #ccc;
+    margin: 0 auto;
+} 
+
+.title {
+    background: rgb(16, 16, 85);
+}
+.art-piece {
+    background: #ccc;
+    padding: 0 auto;
+}
+.title a {
+    color: white
+} */
+
+
+body {
+    font-size: 14px;
+    background: #aaa;
+
+}
+
+#wrapper {
+    width: 60%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+header {
+    background: #fa0;
+    color: #fff;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 8em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+header h1 span {
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+}
+
+header .stit {
+    background: #ccc;
+    color: #333;
+    padding: 5px 0;
+}
+
+/* 모든 요소에 왼쪽 정렬 */
+.container>* {
+    float: left;
+}
+
+.container .side-menu {
+    width: 25%;
+}
+
+.container .side-menu h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #fff;
+    background: #900;
+    padding: 10px;
+}
+
+.container .side-menu ul {
+    margin-top: 5px;
+}
+
+.container .side-menu ul li {
+    padding: 10px;
+
+}
+
+.container .side-menu ul li a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container .side-menu ul li a:hover {
+    border-bottom: 1px dashed #000;
+
+}
+
+/* main-content */
+.container .main-content {
+    background: #ddd;
+    width: 50%;
+    color: #123456;
+}
+
+.container .main-content .art-piece {
+    margin-top: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.container .main-content .art-piece .title {
+    color: #ddd;
+    background: #123456;
+    padding: 7px 5px;
+}
+
+.container .main-content .art-piece .title a:hover {
+    text-decoration: underline;
+}
+
+.container .main-content .art-piece .artist {
+    margin: 20px 0;
+}
+.container .main-content .art-piece .detail {
+    font-size: 0.7em;
+    font-weight: 400;
+}
+
+.container .banner{
+    width: 25%;
+    font-weight: 700;
+}
+
+.container .banner h3 {
+    font-size: 1.7em;
+    color: #333;
+    padding: 20px 10px;
+}
+.container.banner h3 span,
+.container .banner h3 strong {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.container .banner h3 span {
+    text-decoration: underline;
+
+}
+.container .banner h3 .all {
+    color: #999;
+}
+
+.container .banner h3 .love {
+    color: #fa0;
+}
+
+.container .banner .link {
+    padding: 0 10px;
+}
+
+.container .banner .link li {
+    margin-bottom: 15px;
+}
+.container .banner .link li a {
+    display: block;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    width: fit-content;
+}
+.container .banner .link li span{
+    font-weight: 400;
+
+}
+footer {
+    background: #123456;
+    padding: 10px;
+    font-weight: bold;
+    color:  #eee;
+    text-align: center;
+}
+footer a{
+    text-decoration: underline;
+}
+
